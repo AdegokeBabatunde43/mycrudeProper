@@ -6,6 +6,28 @@
   height: 40vmin;
   pointer-events: none;
 }
+.welcome{
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  
+
+}
+.item{
+  background-color: rgb(222, 142, 45);
+  width: 400px;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  
+}
+form input{ 
+  margin-right: 20px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
