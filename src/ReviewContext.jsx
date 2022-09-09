@@ -1,7 +1,7 @@
 import React, {createContext, useState, useEffect} from 'react'
 
 // const url = 'https://jsonplaceholder.typicode.com/posts'
-const url = 'http://localhost:8000/api/v1/alltodos'
+const url = 'http://localhost:8000/api/v1/alltodo'
 export const ReviewContext= createContext()
 
 const ReviewProvider = ({children}) => {
